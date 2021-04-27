@@ -1,0 +1,33 @@
+{
+  "name": "bim-cli",
+  "version": "1.0.0",
+  "description": "BIM脚手架",
+  "main": "bin/bim.js",
+  "bin": {
+    "bim": "./bin/bim.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gjtool/bim-cli.git"
+  },
+  "author": "gjtool",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gjtool/bim-cli/issues"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.1.0",
+    "compressing": "^1.5.1",
+    "fs-extra": "^9.0.1",
+    "inquirer": "^8.0.0",
+    "request": "^2.88.2",
+    "semver": "^7.3.5"
+  },
+  "engines": {
+    "node": ">=8.12.0"
+  }
+}
